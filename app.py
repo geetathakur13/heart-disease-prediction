@@ -38,7 +38,7 @@ page_bg_img = f"""
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 models = {
-   'heart_disease': pickle.load(open('C:/Users/HP/OneDrive/Desktop/heart/Models/heart_disease_model.sav', 'rb')),
+  'heart_disease': pickle.load(open('Models/heart_disease_model.sav', 'rb')),
 
 }
 selected = st.selectbox(
