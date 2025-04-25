@@ -108,8 +108,8 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Background Image
-background_image_url = "https://content.presspage.com/uploads/2170/475328e9-33c6-4b3e-bfae-c0c09c4f7ee1/1920_gettyimages-ai-clinic-copy.jpeg?10000"
-
+# background_image_url = "https://content.presspage.com/uploads/2170/475328e9-33c6-4b3e-bfae-c0c09c4f7ee1/1920_gettyimages-ai-clinic-copy.jpeg?10000"
+background_image_url = "https://eukardia.gr/wp-content/uploads/2022/11/picture-01.jpg"
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
